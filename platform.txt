@@ -166,7 +166,11 @@ tools.WCH_linkE.upload.params.verbose=
 tools.WCH_linkE.upload.params.quiet=
 tools.WCH_linkE.upload.config={runtime.tools.openocd.path}/bin/wch-riscv.cfg
 tools.WCH_linkE.upload.pattern="{path}{cmd}" -f "{upload.config}" -c init -c halt -c "program {{build.path}/{build.project_name}.elf} verify; wlink_reset_resume; exit;"
-
-
 #tools.WCH_linkE.upload.pattern="{path}{cmd}" -f {upload.config} -c init -c halt -c "program {{build.path}/{build.project_name}.elf}; verify_image {{build.path}/{build.project_name}.elf}; wlink_reset_resume;  exit;"
+
+## PicoRVD-GDB
+tools.PicoRVD_GDB.cmd=gdb-multiarch
+tools.PicoRVD_GDB.upload.pattern="{cmd}" -ex 'target extended-remote {serial.port}' -ex 'load' -ex 'detach' -ex 'quit' "{build.path}/{build.project_name}.elf"
+
+
 

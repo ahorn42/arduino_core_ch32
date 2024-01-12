@@ -48,6 +48,11 @@ CH32V00x_EVT.menu.upload_method.swdMethod.upload.protocol=
 CH32V00x_EVT.menu.upload_method.swdMethod.upload.options=
 CH32V00x_EVT.menu.upload_method.swdMethod.upload.tool=WCH_linkE
 
+CH32V00x_EVT.menu.upload_method.picoRvdMethod=PicoRVD-GDB
+CH32V00x_EVT.menu.upload_method.picoRvdMethod.upload.protocol=
+CH32V00x_EVT.menu.upload_method.picoRvdMethod.upload.options=
+CH32V00x_EVT.menu.upload_method.picoRvdMethod.upload.tool=PicoRVD_GDB
+
 
 
 # Optimizations
@@ -132,6 +137,10 @@ CH32X035_EVT.menu.upload_method.swdMethod.upload.protocol=
 CH32X035_EVT.menu.upload_method.swdMethod.upload.options=
 CH32X035_EVT.menu.upload_method.swdMethod.upload.tool=WCH_linkE
 
+CH32X035_EVT.menu.upload_method.picoRvdMethod=PicoRVD-GDB
+CH32X035_EVT.menu.upload_method.picoRvdMethod.upload.protocol=
+CH32X035_EVT.menu.upload_method.picoRvdMethod.upload.options=
+CH32X035_EVT.menu.upload_method.picoRvdMethod.upload.tool=PicoRVD_GDB
 
 
 # Optimizations
@@ -216,7 +225,10 @@ CH32V10x_EVT.menu.upload_method.swdMethod.upload.protocol=
 CH32V10x_EVT.menu.upload_method.swdMethod.upload.options=
 CH32V10x_EVT.menu.upload_method.swdMethod.upload.tool=WCH_linkE
 
-
+CH32V10x_EVT.menu.upload_method.picoRvdMethod=PicoRVD-GDB
+CH32V10x_EVT.menu.upload_method.picoRvdMethod.upload.protocol=
+CH32V10x_EVT.menu.upload_method.picoRvdMethod.upload.options=
+CH32V10x_EVT.menu.upload_method.picoRvdMethod.upload.tool=PicoRVD_GDB
 
 # Optimizations
 CH32V10x_EVT.menu.opt.osstd=Smallest (-Os default)
@@ -339,6 +351,10 @@ CH32V20x_EVT.menu.upload_method.swdMethod.upload.protocol=
 CH32V20x_EVT.menu.upload_method.swdMethod.upload.options=
 CH32V20x_EVT.menu.upload_method.swdMethod.upload.tool=WCH_linkE
 
+CH32V20x_EVT.menu.upload_method.picoRvdMethod=PicoRVD-GDB
+CH32V20x_EVT.menu.upload_method.picoRvdMethod.upload.protocol=
+CH32V20x_EVT.menu.upload_method.picoRvdMethod.upload.options=
+CH32V20x_EVT.menu.upload_method.picoRvdMethod.upload.tool=PicoRVD_GDB
 
 
 # Optimizations
@@ -423,6 +439,11 @@ CH32V30x_EVT.menu.upload_method.swdMethod=WCH-SWD
 CH32V30x_EVT.menu.upload_method.swdMethod.upload.protocol=
 CH32V30x_EVT.menu.upload_method.swdMethod.upload.options=
 CH32V30x_EVT.menu.upload_method.swdMethod.upload.tool=WCH_linkE
+
+CH32V30x_EVT.menu.upload_method.picoRvdMethod=PicoRVD-GDB
+CH32V30x_EVT.menu.upload_method.picoRvdMethod.upload.protocol=
+CH32V30x_EVT.menu.upload_method.picoRvdMethod.upload.options=
+CH32V30x_EVT.menu.upload_method.picoRvdMethod.upload.tool=PicoRVD_GDB
 
 
 
